@@ -279,7 +279,7 @@ export default function RandomFinder() {
             Ready to Explore?
           </h3>
           <p className="text-gray-500">
-            Click "Discover Repository" to find amazing projects
+            Click &quot;Discover Repository&quot; to find amazing projects
           </p>
         </div>
       )}

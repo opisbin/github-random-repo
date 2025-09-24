@@ -37,7 +37,8 @@ export async function GET(req: Request) {
 
     const chosen = items[Math.floor(Math.random() * items.length)];
     return NextResponse.json({ repo: chosen });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || String(err) }, { status: 500 });
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }
