@@ -21,7 +21,7 @@ export default function Home() {
         {/* Footer */}
         <div className="text-center mt-16 text-gray-500 text-sm">
           {/* <p>Discover amazing projects from the GitHub universe</p> */}
-          <p>Designed and developed with ❤️ by <a className="text-white hover:text-[var(--accent-secondary)] transition-all duration-200" href="https://www.meherab.art" target="_blank" rel="noopener noreferrer">Meherab Hossain</a></p>
+          <p>Designed and developed with ❤️ by <a className="text-white hover:text-[var(--accent-secondary)] transition-all duration-500" href="https://www.meherab.art" target="_blank" rel="noopener noreferrer">Meherab Hossain</a></p>
         </div>
       </div>
 
